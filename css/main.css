@@ -156,31 +156,36 @@ footer {
     padding: 20px;
 }
 .footer-content {
-    display: flex;
+    display:flex ;
     justify-content: space-between;
-    align-items: center;
+    align-items: center ;
+    
 }
 .left input {
     width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #333;
-    color: #fff;
+    padding: 15px;
+    border:  none;
+    background-color: #212529;
+    color: #ede8e8;
 }
 .right button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background-color: #009ad8;
+    color: #f2ecec;
+    border: var(--bs-btn-border-color);
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 .social-icons a {
-    margin-right: 10px;
+    margin-right: 15px;
+    border: #009ad8;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
-.social-icons img {
+.social-icons i {
     width: 20px;
-    height: 20px;
+    height: 15px;
+    color:#009ad8 ;
 }
 .copyright {
     text-align: center;
